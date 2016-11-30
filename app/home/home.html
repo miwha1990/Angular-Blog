@@ -1,0 +1,17 @@
+This Is a home page
+<table class="bordered highlight centered" ng-show="vm.users" >
+    <thead>
+    <tr>
+        <th>
+            User name
+        </th>
+        <th>
+            User role
+        </th>
+    </tr>
+    </thead>
+<tr ng-repeat="one_user in vm.users" ng-hide>
+    <td>{{one_user.name}}</td>
+    <td>{{one_user.role}}</td>
+</tr>
+</table>

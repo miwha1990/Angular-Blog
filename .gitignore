@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+assets/*
+!assets/.gitkeep
+/node_modules/
+.idea/
+.node_modules
+app/stats/data.csv
+server/node_modules

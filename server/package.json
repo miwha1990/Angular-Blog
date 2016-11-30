@@ -1,0 +1,24 @@
+{
+  "name": "awesome-blog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.0.1",
+    "mongoose": "^4.5.0",
+    "mongoose-unique-validator": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-livereload": "^3.8.1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-cookies": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "bootstrap": "^3.3.6",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.1.0",
+    "materialize-css": "^0.97.8",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "browser-sync-webpack-plugin": "^1.1.0",
+    "concurrently": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-livereload": "^3.8.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.21.0",
+    "image-webpack-loader": "^1.8.0",
+    "imports-loader": "^0.6.5",
+    "lite-server": "^2.2.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miwha1990/angular_new_blog.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/miwha1990/angular_new_blog/issues"
+  },
+  "homepage": "https://github.com/miwha1990/angular_new_blog#readme",
+  "description": ""
+}

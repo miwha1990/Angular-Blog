@@ -1,0 +1,20 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Live Courses</a>
+        <a href="#" data-activates="mobile-demo" id="slide_button" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="left hide-on-med-and-down">
+            <li ng-repeat="link in vm.links" ng-hide="link.hidden"><a ui-sref={{link.sref}}>{{link.label}}</a></li>
+        </ul>
+       <ul class="side-nav">
+           <li ng-repeat="link in vm.links" ng-hide="link.hidden"><a ui-sref={{link.sref}}>{{link.label}}</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down" ng-show="vm.user">
+            <li>Hello, {{vm.user.name}} ! <a class="waves-effect waves-light btn" ng-click="vm.logOut()">
+                <i class="material-icons right" style="line-height:34px;">input</i>Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
